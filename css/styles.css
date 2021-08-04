@@ -9,9 +9,8 @@ body {
   font-size: 1.5rem;
   color:blanchedalmond;
   scroll-behavior: smooth;
-  background:url(../assets/b5.jpg);
+  background:url(../assets/1.jpg) no-repeat;
   
-
 }
 
 nav{
@@ -21,7 +20,7 @@ nav{
     background-size: cover;
     text-decoration:blanchedalmond;
     border-radius: 30px 30px 30px 30px; 
-    background:url(../assets/b5.jpg);
+    background:url(../assets/g2.jpg);
    
     
    
