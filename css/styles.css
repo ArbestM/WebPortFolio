@@ -9,7 +9,9 @@ body {
   font-size: 1.5rem;
   color:blanchedalmond;
   scroll-behavior: smooth;
-  background:url(../assets/1.jpg) no-repeat;
+  background:url(../assets/1.jpg);
+  
+  background-size: cover;
   
 }
 
@@ -20,10 +22,9 @@ nav{
     background-size: cover;
     text-decoration:blanchedalmond;
     border-radius: 30px 30px 30px 30px; 
-    background:url(../assets/g2.jpg);
-   
-    
-   
+    background:url(../assets/1.jpg);
+     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 nav ul {
@@ -50,13 +51,15 @@ nav ul {
  
 
 .intro-left {
-  background-size: cover;
+ 
   position: fixed;
   left: 0;
   width: 33.3333%;
   height: 100%;
   color:blanchedalmond;
   border-radius:50px;
+  background-repeat: no-repeat;
+  background-size: cover;
   
 }
 
@@ -112,18 +115,27 @@ a {
 #footer {
   padding: 20px;
   text-align: center;
+
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .social-media-icon {
   font-size: 50px;
   color: black;
   padding: 10px;
+  background:url(../assets/1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .social-media-icon:hover {
   color: rgb(141, 140, 140);
   position: relative;
   top: -5px;
+  background:url(../assets/1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 
